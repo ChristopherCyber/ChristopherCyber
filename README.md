@@ -7,7 +7,7 @@ Thank you for visiting my GitHub profile.
 
 
 <h3 align="center">Digital Craftsman (Developer/Cyber-Security-Major)</h3>
-<img align="right" alt="Coding" width="400" src="https://www.icegif.com/wp-content/uploads/2021/09/icegif-2.gif">
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/YUzRkMOL-3EAAAAM/programming-computer-frog.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=christopheryber&label=Profile%20views&color=0e75b6&style=flat" alt="christopheryber" /> </p>
 
 - 📫 How to reach me **christopher.androu@gmail.com**
