@@ -1,4 +1,10 @@
-<h1 align="center">Hi 👋, I'm Hi, I'm Christopher Androutsopoulos and I am a final year computer science student at the University of Wollongong. My major is in cyber security and I am passionate about staying up-to-date with the latest trends and technologies in the field. I am excited to use my skills and knowledge to make a positive impact on the world and help keep individuals and organizations safe from cyber threats. Thank you for visiting my GitHub profile. Feel free to reach out to me if you have any questions or if you would like to collaborate on a project.</h1>
+<h1 align="center">Hi 👋, I'm Christopher Androutsopoulos and I am a final year computer science student at the University of Wollongong. 
+My major is in cyber security and I am passionate about staying up-to-date with the latest trends and technologies in the field. 
+I am excited to use my skills and knowledge to make a positive impact on the world and help keep individuals and organizations safe from cyber threats. 
+
+Thank you for visiting my GitHub profile.
+Feel free to reach out to me if you have any questions or if you would like to collaborate on a project.</h1>
+
 <h3 align="center">Digital Craftsman (Developer/Cyber-Security-Major)</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=christopheryber&label=Profile%20views&color=0e75b6&style=flat" alt="christopheryber" /> </p>
