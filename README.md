@@ -7,7 +7,7 @@
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/15/e7/e3/15e7e300166c962d3b8a22f60b5cac9e.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=christopheryber&label=Profile%20views&color=0e75b6&style=flat" alt="christopheryber" /> </p>
 
-- 📫 How to reach me **christopher.androu@gmail.com**
+-📫How to reach me **christopher.androu@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
