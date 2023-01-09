@@ -7,7 +7,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=christopheryber&label=Profile%20views&color=0e75b6&style=flat" alt="christopheryber" /> </p>
 
 -📫How to reach me **christopher.androu@gmail.com**
-<details>
 <h3>👨‍💻 Christophers Coding Journey</h3>
  
  
