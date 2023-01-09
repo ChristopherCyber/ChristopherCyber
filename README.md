@@ -8,7 +8,7 @@
 
 -📫How to reach me **christopher.androu@gmail.com**
 <details>
-<summary><h3>👨‍💻 Christophers Coding Journey</h3></summary>
+<h3>👨‍💻 Christophers Coding Journey</h3>
  
  
  
