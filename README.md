@@ -7,8 +7,8 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=christopheryber&label=Profile%20views&color=0e75b6&style=flat" alt="christopheryber" /> </p>
 
 -📫How to reach me **christopher.androu@gmail.com**
-<h3>👨‍💻 Christophers Coding Journey</h3>
- 
+<h3>👨‍Goals</h3>
+ - Currently studying for my CompTIA Security+ Certification(https://www.comptia.org/certifications/security)
  
  
 <h3 align="left">Connect with me:</h3>
