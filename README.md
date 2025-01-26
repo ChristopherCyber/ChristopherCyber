@@ -1,99 +1,69 @@
-import React from 'react';
+```markdown
 
-const CyberSecurityPortfolio = () => {
-  const hackerArt = `         ___   ____
-       /' --;^/ ,-_\\     \\ | /      
-      / / --o\\ o-\\ \\\\   --(_)--  
-     /-/-/|o|-|\\-\\\\|\\\\   / | \\   _____ _          _     _              _              
-      '\`  \` |-|   \`\` '           / ____| |        (_)   | |            | |               
+         ___   ____
+       /' --;^/ ,-_\     \ | /      
+      / / --o\ o-\ \\   --(_)--  
+     /-/-/|o|-|\-\\|\\   / | \   _____ _          _     _              _              
+      '`  ` |-|   `` '           / ____| |        (_)   | |            | |               
             |-|                 | |    | |__  _ __ _ ___| |_ ___  _ __ | |__   ___ _ __ 
-            |-|O               | |    | '_ \\| '__| / __| __/ _ \\| '_ \\| '_ \\ / _ \\ '__|
-            |-(\\,__           | |____| | | | |  | \\__ \\ || (_) | |_) | | | |  __/ |   
-         ...|-|\\--,\\_....      \\_____|_| |_|_|  |_|___/\\__\\___/| .__/|_| |_|\\___|_|   
+            |-|O               | |    | '_ \| '__| / __| __/ _ \| '_ \| '_ \ / _ \ '__|
+            |-(\,__           | |____| | | | |  | \__ \ || (_) | |_) | | | |  __/ |   
+         ...|-|\--,\_....      \_____|_| |_|_|  |_|___/\__\___/| .__/|_| |_|\___|_|   
       ,;;;;;;;;;;;;;;;;;;;;;;;;,.                               | |                      
 ~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,   _    _ _   _         |_|           _             _       
-                                        / \\  | | \\ | |   /\\   | | |         | |           | |      
-                                       / _ \\ | |  \\| |  /  \\  | | |_ ___  __| |_ ___  ___| |_ ___ 
-                                      / ___ \\| | |\\  | / /\\ \\ | | __/ _ \\/ __| __/ _ \\/ __| __/ __|
-                                     /_/   \\_\\_|_| \\_|/_/  \\_\\_|_|\\__\\___/\\__/\\__\\___/\\___/\\__|___/
-                                                                                        © 2025     `;
+                                        / \  | | \ | |   /\   | | |         | |           | |      
+                                       / _ \ | |  \| |  /  \  | | |_ ___  __| |_ ___  ___| |_ ___ 
+                                      / ___ \| | |\  | / /\ \ | | __/ _ \/ __| __/ _ \/ __| __/ __|
+                                     /_/   \_\_|_| \_|/_/  \_\_|_|\__\___/\__/\__\___/\___/\__|___/
+                                                                                        © 2025     
 
-  return (
-    <div className="min-h-screen bg-black text-green-400 font-mono p-4 text-xs">
-      <div className="max-w-4xl mx-auto">
-        <div className="bg-gray-900 border border-green-600 rounded p-4">
-          <pre className="text-green-400 text-[0.6rem] leading-tight mb-4 overflow-x-auto whitespace-pre">{hackerArt}</pre>
-          
-          <div className="border-b border-green-600 pb-2 mb-4">
-            <span className="text-green-300">root@christopher:~$</span> whoami
-          </div>
-          
-          <div className="mb-4">
-            <div className="text-lg font-bold">Christopher Androutsopoulos</div>
-            <div>Cybersecurity Analyst | ServiceNow Consultant</div>
-          </div>
+# Cybersecurity Analyst & ServiceNow Consultant
 
-          <div className="mb-4">
-            <div className="text-green-300">root@christopher:~$ cat professional_experience.txt</div>
-            <div className="pl-4">
-              <div>ServiceNow | Consultant / Programmer (2 Years)</div>
-              <ul className="list-disc pl-4">
-                <li>Developed enterprise-level software solutions</li>
-                <li>Implemented robust programming frameworks</li>
-                <li>Collaborated with cross-functional technical teams</li>
-              </ul>
-            </div>
-          </div>
 
-          <div className="mb-4">
-            <div className="text-green-300">root@christopher:~$ ls technical_skills</div>
-            <div className="pl-4 flex flex-wrap gap-2">
-              {['Python', 'Network Security', 'Threat Analysis', 'Incident Response', 
-                'Linux', 'Wireshark', 'Security Tools'].map((skill) => (
-                <span key={skill} className="bg-green-800 text-green-300 px-2 py-1 rounded text-xs">
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
 
-          <div className="mb-4">
-            <div className="text-green-300">root@christopher:~$ show certifications</div>
-            <div className="pl-4">
-              {[
-                'CompTIA Security+',
-                'Google Cybersecurity Professional Certificate', 
-                'CompTIA Network+'
-              ].map((cert) => (
-                <div key={cert} className="flex items-center">
-                  <span className="mr-2">[*]</span>
-                  <span>{cert}</span>
-                  <span className="ml-2 bg-green-900 text-green-300 text-xs px-2 py-0.5 rounded">IN PROGRESS</span>
-                </div>
-              ))}
-            </div>
-          </div>
+## 🛡️ Professional Experience
 
-          <div className="mb-4">
-            <div className="text-green-300">root@christopher:~$ cat career_objective.txt</div>
-            <div className="pl-4 italic">
-              Experienced ServiceNow consultant transitioning into cybersecurity. 
-              Seeking to leverage technical expertise to protect organizations 
-              from evolving digital threats.
-            </div>
-          </div>
+**ServiceNow | Consultant / Programmer (2023-Present)**
+- Automated security incident response workflows reducing MTTR by 40%
+- Implemented SOAR integrations processing 10k+ daily security events
+- Developed custom security dashboards for 100+ enterprise clients
+- Enhanced vulnerability management processes with automated scanning and reporting
 
-          <div className="text-green-300">
-            root@christopher:~$ contact
-            <div className="pl-4">
-              <span className="inline-block align-middle mr-2">📧</span> 
-              christopher.androu@gmail.com
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+## 🔒 Technical Skills
+- **Security Tools:** Wireshark, Nessus, Metasploit, Burp Suite, Splunk SIEM
+- **Programming:** Python, PowerShell (Security Automation & Scripting)
+- **Cloud Security:** AWS Security Services, Cloud Security Architecture
+- **Network Security:** IDS/IPS, Firewall Configuration, Network Monitoring
+- **Frameworks:** NIST, MITRE ATT&CK, ISO 27001
 
-export default CyberSecurityPortfolio;
+## 📚 Certifications (In Progress)
+- CompTIA Security+
+- Google Cybersecurity Professional Certificate
+- CompTIA Network+
+- ISC2 Certified in Cybersecurity
+
+## 🔬 Security Projects
+
+### Home Security Lab
+- Configured virtualized network with pfSense, Security Onion, and Kali Linux
+- Implemented ELK Stack for centralized security logging and monitoring
+- Deployed Snort IDS for network traffic analysis and threat detection
+
+### Vulnerability Assessment Platform
+- Built automated vulnerability scanning system using Python and Nessus API
+- Created dashboard for real-time security metrics and reporting
+- Repository: [github.com/ChristopherCyber/vuln-assess](https://github.com/ChristopherCyber/vuln-assess)
+
+### Network Traffic Analyzer
+- Developed Python-based packet analyzer for detecting anomalous network behavior
+- Integrated with ML algorithms for automated threat detection
+- Repository: [github.com/ChristopherCyber/network-analyzer](https://github.com/ChristopherCyber/network-analyzer)
+
+## 📫 Connect
+- Email: christopher.androu@gmail.com
+- LinkedIn: [linkedin.com/in/christopher-androutsopoulos](https://linkedin.com/in/christopher-androutsopoulos)
+- Personal Security Blog: [christophercyber.dev](https://christophercyber.dev)
+
+---
+*Currently seeking Cybersecurity Analyst roles. Passionate about protecting organizations through proactive security measures and continuous monitoring.*
+```
