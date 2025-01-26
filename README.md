@@ -1,25 +1,99 @@
-<h1>Christopher Androutsopoulos</h1>
-<h3>**'Digital Craftsman (Developer/Cyber-Security-Major)'**</h3>
-<p>I'm Christopher Androutsopoulos, and I am a final-year computer science student at the University of Wollongong. My major is cyber security, and I am passionate about staying up-to-date with the latest trends and technologies in the field. I am excited to use my skills and knowledge to make a positive impact on the world and help keep individuals and organisations safe from cyber threats.</p>  
- 
+import React from 'react';
 
-<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/15/e7/e3/15e7e300166c962d3b8a22f60b5cac9e.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=christopheryber&label=Profile%20views&color=0e75b6&style=flat" alt="christopheryber" /> </p>
+const CyberSecurityPortfolio = () => {
+  const hackerArt = `         ___   ____
+       /' --;^/ ,-_\\     \\ | /      
+      / / --o\\ o-\\ \\\\   --(_)--  
+     /-/-/|o|-|\\-\\\\|\\\\   / | \\   _____ _          _     _              _              
+      '\`  \` |-|   \`\` '           / ____| |        (_)   | |            | |               
+            |-|                 | |    | |__  _ __ _ ___| |_ ___  _ __ | |__   ___ _ __ 
+            |-|O               | |    | '_ \\| '__| / __| __/ _ \\| '_ \\| '_ \\ / _ \\ '__|
+            |-(\\,__           | |____| | | | |  | \\__ \\ || (_) | |_) | | | |  __/ |   
+         ...|-|\\--,\\_....      \\_____|_| |_|_|  |_|___/\\__\\___/| .__/|_| |_|\\___|_|   
+      ,;;;;;;;;;;;;;;;;;;;;;;;;,.                               | |                      
+~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,   _    _ _   _         |_|           _             _       
+                                        / \\  | | \\ | |   /\\   | | |         | |           | |      
+                                       / _ \\ | |  \\| |  /  \\  | | |_ ___  __| |_ ___  ___| |_ ___ 
+                                      / ___ \\| | |\\  | / /\\ \\ | | __/ _ \\/ __| __/ _ \\/ __| __/ __|
+                                     /_/   \\_\\_|_| \\_|/_/  \\_\\_|_|\\__\\___/\\__/\\__\\___/\\___/\\__|___/
+                                                                                        © 2025     `;
 
--📫How to reach me **christopher.androu@gmail.com**
-<h3>👨‍Goals</h3>
- - Currently studying for my CompTIA Security+ Certification(https://www.comptia.org/certifications/security)
- 
- 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://stackoverflow.com/users/christophercyber" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="christophercyber" height="30" width="40" /></a>
-<a href="https://instagram.com/christopherandroutsopoulos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="christopherandroutsopoulos" height="30" width="40" /></a>
-</p>
+  return (
+    <div className="min-h-screen bg-black text-green-400 font-mono p-4 text-xs">
+      <div className="max-w-4xl mx-auto">
+        <div className="bg-gray-900 border border-green-600 rounded p-4">
+          <pre className="text-green-400 text-[0.6rem] leading-tight mb-4 overflow-x-auto whitespace-pre">{hackerArt}</pre>
+          
+          <div className="border-b border-green-600 pb-2 mb-4">
+            <span className="text-green-300">root@christopher:~$</span> whoami
+          </div>
+          
+          <div className="mb-4">
+            <div className="text-lg font-bold">Christopher Androutsopoulos</div>
+            <div>Cybersecurity Analyst | ServiceNow Consultant</div>
+          </div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> </p>
+          <div className="mb-4">
+            <div className="text-green-300">root@christopher:~$ cat professional_experience.txt</div>
+            <div className="pl-4">
+              <div>ServiceNow | Consultant / Programmer (2 Years)</div>
+              <ul className="list-disc pl-4">
+                <li>Developed enterprise-level software solutions</li>
+                <li>Implemented robust programming frameworks</li>
+                <li>Collaborated with cross-functional technical teams</li>
+              </ul>
+            </div>
+          </div>
 
+          <div className="mb-4">
+            <div className="text-green-300">root@christopher:~$ ls technical_skills</div>
+            <div className="pl-4 flex flex-wrap gap-2">
+              {['Python', 'Network Security', 'Threat Analysis', 'Incident Response', 
+                'Linux', 'Wireshark', 'Security Tools'].map((skill) => (
+                <span key={skill} className="bg-green-800 text-green-300 px-2 py-1 rounded text-xs">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
 
-<h3>👨‍💻 Christophers Coding Journey</h3>
-As a final-year student in Computer Science, I am excited to bring my strong foundation in programming and technical problem-solving to a challenging and dynamic role in the tech industry. My passion for technology began early in my studies, where I excelled in courses covering a wide range of topics, from algorithms and data structures to cyber security and programming. In addition to my academic achievements I am a proactive and hardworking individual who is eager to learn and contribute to a team.
+          <div className="mb-4">
+            <div className="text-green-300">root@christopher:~$ show certifications</div>
+            <div className="pl-4">
+              {[
+                'CompTIA Security+',
+                'Google Cybersecurity Professional Certificate', 
+                'CompTIA Network+'
+              ].map((cert) => (
+                <div key={cert} className="flex items-center">
+                  <span className="mr-2">[*]</span>
+                  <span>{cert}</span>
+                  <span className="ml-2 bg-green-900 text-green-300 text-xs px-2 py-0.5 rounded">IN PROGRESS</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mb-4">
+            <div className="text-green-300">root@christopher:~$ cat career_objective.txt</div>
+            <div className="pl-4 italic">
+              Experienced ServiceNow consultant transitioning into cybersecurity. 
+              Seeking to leverage technical expertise to protect organizations 
+              from evolving digital threats.
+            </div>
+          </div>
+
+          <div className="text-green-300">
+            root@christopher:~$ contact
+            <div className="pl-4">
+              <span className="inline-block align-middle mr-2">📧</span> 
+              christopher.androu@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CyberSecurityPortfolio;
